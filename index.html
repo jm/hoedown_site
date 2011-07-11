@@ -56,6 +56,38 @@
         font-size: 20pt;
       }
       
+      .talks h1 {
+        color: white;
+        font-size: 16pt;
+        margin: 32px 0px 12px 0px;
+        text-shadow: 3px 3px 2px #000;
+      }
+      
+      .talks h2 {
+        text-align: left;
+        font-size: 18pt;
+        margin: 0px;
+        margin-top: 18px;
+      }
+      
+      .talks h3 {
+        font-size: 12pt;
+        text-align: left;
+        margin: 0px;
+        color: #cef;
+        margin-bottom: 12px;
+      }
+      
+      .talks p, .talks ul {
+        text-align: left;
+        color: #d6d6d6;
+        font-size: 10pt;
+      }
+      
+      .talk-photo {
+        padding-top: 24px;
+        text-align: center;
+      }
     </style>
   </head>
   
@@ -94,8 +126,161 @@
         </div>
       </div>
       
-      <div class="span-24">
-        <h2 style="color: white; padding: 30px; font-size: 24pt;">( Speaker information coming very <em>very</em> soon! )</h2>
+      <div class="span-24 talks">
+        <h1>Keynote</h1>
+
+        <div class="span-5 talk-photo">
+          <img src="images/joe.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>Taking Back Education</h2>
+        <h3>Joe "Learn You Some Softwares" O'Brien, EdgeCase</h3>
+        <div class="talk-summary">
+        <p>No one can argue that the software development industry has changed drastically in the last 10 years. No one can argue that it will continue to change.</p>
+
+        <p>This is a call to arms. We know that the education system is broken for software developers. We complain about it. It is not the school's problem, this is ours. It's time we do something about it.</p>
+
+        <p>This talk is an action plan. This is not a wish list. This is a way for companies to train their teams to lead, not follow. The plan lays out how to deal with turnover, existing skill sets and skills coming out of college. Borrowing lessons from each other consulting and product companies will both benefit.</p>
+
+        <p>In the end, you will create another competitive advantage.</p>
+        </div>
+        </div>
+
+        <h1>Talks</h1>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/jeff.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>There Are No Tests</h2>
+        <h3>Jeff "La Bamba" Casimir, Jumpstart Labs</h3>
+        <div class="talk-summary">
+          <p>The Ruby community is obsessed with testing, supposedly.  In my experience about four out of five applications have either zero or completely ineffective test coverage.</p>
+
+          <p>Have the courage to change it.  Whether your own projects or recovering someone else's mess, let's talk strategy:</p>
+
+          <ul>
+            <li>Starting with metrics</li>
+            <li>Refactoring for understanding</li>
+            <li>Comment-driven development</li>
+            <li>The unit testing foundation</li>
+            <li>Bug reports are your best integration tests</li>
+            <li>Focusing on value</li>
+          </ul>
+
+          <p>Rescue projects are popping up everywhere, and a strategic testing approach can save the day.</p>
+        </div>
+        </div>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/alan.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>The Easter Egg for Functional Programming Kids</h2>
+        <h3>Alan "(defn awesome [x] (fn [y] (* x y)))" Dipert, Relevance, Inc.</h3>
+        <div class="talk-summary">
+          <p>Learning Clojure and absorbing the wealth of ideas about functional programming that it's built on has made me a better programmer.  I bring those ideas with me wherever I go, and most often, that is to Ruby.</p>
+
+          <p>In my quest to program functionally in Ruby, I've uncovered many of what Matz once called "Easter egg for functional programming kids."  Ruby's most influential ancestor is Smalltalk, but it's also full of ideas from Lisp and other functional languages like Haskell.</p>
+
+          <p>Using these easter eggs in your code is not generally idiomatic Ruby, and it can be difficult to find examples of their usage.  But, combined with a notion of what "functional programming" and "programming with values" means, these provided tools can improve your code and expand your mind.</p>
+
+        </div>
+        </div>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/jon.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>Why Doing Things Wrong Is the Right Thing To Do</h2>
+        <h3>Jon Distad, Relevance Inc.</h3>
+        <div class="talk-summary">
+          <p>Learning is hard. But if you're like me, your biggest obstacle is yourself. It took a long time to realize how important it was just to "do it" and not spend so much time trying to "do it right."</p>
+
+          <p>Clean code is important. Efficient code is important. Using your chosen language/framework/system as it is intended to be used is important. But none of those things are important when you still don't know what they mean.</p>
+
+          <p>My talk focuses on getting your hands dirty and not being afraid to be wrong. I show how making mistakes and disregarding the advice of more experienced programmers helps you gain a deeper understanding of your domain. Of course, context is important, but having a safe place to express yourself and fail miserably without serious consequences is essential to healthy and progressive improvement. Above all, it is important to start from where you are, rather than to attempt to start from where you think you should be.</p>
+        </div>
+        </div>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/will.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>Valiantly Validating Vagrant with Vagabond</h2>
+        <h3>Will "Scaling's Hard, Let's Go...Host At Rails Machine" Farrington, Rails Machine</h3>
+        <div class="talk-summary">
+          <p>Vagrant is awesome. Awesome enough to make me actually use local VMs for testing. That's a pretty high level of awesomeness. But, with great awesome comes great responsibility. I had no choice but to sit down and write Vagabond.</p>
+
+          <p>Vagabond is a testing library for servers - as long as you can SSH into them, you can test 'em. With Vagabond, you're able to do BDD for our configuration management (chef, puppet, etc.). After all, your configuration management IS code - you should test it like code!</p>
+        </div>
+        </div>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/avdi.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>Confident Code</h2>
+        <h3>Avdi "The Exception" Grimm, Himself</h3>
+        <div class="talk-summary">
+          <p>Are your methods timid? Do they constantly second-guess themselves, checking for nil values, errors, and unexpected input?</p>
+
+          <p>Even the cleanest Ruby codebases can become littered over time with nil checks, error handling, and other interruptions which steal attention away from the essential purpose of the code.  This talk will discuss strategies for writing your Ruby classes and methods in a confident, straightforward style; without sacrificing functionality or robustness.</p>
+        </div>
+        </div>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/bryan.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>Pakyow: Round One</h2>
+        <h3>Bryan "View Logic Sucks" Powell, Metabahn</h3>
+        <div class="talk-summary">
+          <p>Pakyow is a new web-app framework for Ruby that is planned for open-source release the summer of 2011. There are several advantages to this framework, perhaps the biggest advantage being it's approach to the front-end. </p>
+
+          <p>In Pakyow, views are 100% HTML; no template language, no special tags. This allows a front-end developer to built a functional prototype of an application without writing any business logic. A backend developer can then add the business layer (including view logic) without modifying the views. How does it work? Magic.</p>
+
+          <p>This talk will explain Pakyow's unique approach and demonstrate core concepts with working code examples. A few minutes of the talk will be used for explaining the theory of view/view logic separation and the advantages this has for a development team.</p>
+        </div>
+        </div>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/ben.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>Fractal Design</h2>
+        <h3>Ben "Mandelbrot's Mouthpiece" Scofield, LivingSocial</h3>
+        <div class="talk-summary">
+          <p>Fractals have two (well, more, but I only care about two right now) interesting properties. First, they look similar at every level of granularity. Second, they're generally the result of a  simple definition. In this talk, I show how those two features can also make for better software design.</p>
+
+          <p>We're all familiar with various principles for designing low-level units like methods and classes (SOLID, for instance). When you apply similar principles to larger units -- all the way up to systems of interacting applications -- you get great software. Just like fractals, these systems look similar at every level, and they're built on a single set of underlying, simple ideas.</p>
+        </div>
+        </div>
+        
+        <div class="span-5 talk-photo">
+          <img src="images/jim.png" />
+        </div>
+        
+        <div class="span-19 last talk">
+        <h2>Mastering the Ruby Debugger</h2>
+        <h3>Jim "IN UR RUBIES DEBUGGIN STUFF" Weirich, EdgeCase</h3>
+        <div class="talk-summary">
+          <p>You are happily writing new code for your system when all of a sudden the code is not behaving the way you thought it should.  Perhaps you just created a failing test, and the code you wrote was expected to make the test pass ... but it doesn't.  What's the first thing you do?</p>
+
+          <p>Some Rubyists will drop some "puts" statements into the code.  Some will add a raise statement. And still others will depend on logging to trace the internals of the code.  But a surprisingly few Rubyists will reach for the Ruby debugger.</p>
+
+          <p>Despite a general disdain for the debugger in the Ruby community, the Ruby debugger is a powerful tool that can quickly get to the heart of a coding problem.  This talk will concentrate on getting Rubyists up to speed on the debugger, how to use it effectively and learning other general debugging tips.</p>
+        </div>
+        </div>
+        
       </div>
     </div>
   </body>
